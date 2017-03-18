@@ -1,0 +1,175 @@
+
+.tab{
+	border-right: solid 1px white;
+	border-left: solid 1px white;
+	text-align: center;
+}
+.tab a{
+	color: white;
+	font-size: 1.3em;
+}
+#btnSub{
+	    margin-bottom: 14px;
+	    float: right;
+}
+.row{
+	margin-right: 0px;
+	
+}
+.imageLoad img{
+	width:100px;
+	height: 100px;
+}
+.removeImg{
+	position: relative;
+    top: -37px;
+	right: 26px;
+}
+.imageLoad{
+	display:inline;
+}
+.deleteTag{
+	margin: 0 auto;
+	width: 40%;
+	position: fixed;
+	z-index: 200;
+	top: 50%;
+    left: 35%;
+    display: none;
+
+}
+
+
+.navbar-default{
+	color: #ffffff;
+	background-color: #3b5998;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+body{
+	background-color: #e9ebee;
+}
+ .cover{
+ background: url(images/anhbia.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding-top: 200px;
+ color: white;
+margin-bottom:40px;
+ }
+.panel-default > .panel-heading{
+	background-color: white;
+	border-bottom: solid 1px #eee;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.panel-body {
+    background-color: #fff;
+}
+.picture{
+	margin:0 auto;
+}
+.post>.user{
+	width: 40px;
+	height: 40px;
+	display:inline;
+	clear: right;
+}
+.post{
+	padding:10px;
+}
+.post a{
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2em;
+}
+button.removeImg {
+    background-color: transparent;
+    border: none;
+}
+button.confirm {
+    background-color: transparent;
+    border: none;
+}
+.btn-group{
+	float: right;
+}
+.dropdown-toggle{
+
+	background-color: transparent;
+    border: none;
+}
+.dropdown-menu li{
+	font-size: 1em;
+	padding:10px;
+	cursor: pointer;
+}
+.dropdown-menu li:hover,.dropdown-menu li:focus{
+	background-color: #e9ebee
+}
+.update{
+	    margin-top: 10px;
+	    margin-bottom: 10px
+}
+._status {
+    margin-top: 20px;
+    font-size: 2em;
+}
+button.btn.btn-default.changeAvatar{
+	position: relative;
+    top: -63px;
+    display: none;
+    background-color: transparent;
+    border: none
+}
+
+/*.box {
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+    display: inline-block;
+    margin: 3px;
+}*/
+img.user.thumbnail {
+    width: 160px;
+    height: 160px;
+}
+.page .active{
+	    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd
+}
+.containerimg {
+  width: 100%;
+  margin: auto;
+
+}
+#boxImage>.containerimg{
+	  display:inline;
+}
+
+.containerimg > .box {
+  -webkit-box-shadow: 0 4px 15px -5px #555;
+  box-shadow: 0 4px 15px -5px #555;
+  background-color: #fff;
+  width: 195px;
+  padding: 2px;
+  margin: 5px;
+  display:inline-block;
+}
+
+.containerimg > .box img {
+  padding: 0px;
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 768px){
+	.cover{
+		padding-top:50px;
+	}
+
+}
